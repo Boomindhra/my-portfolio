@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(red, green, blue);
+}
+#fo {
+    background-color: cadetblue;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+#h{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    font-style:italic;
+    color:black;
+}
+#img1{
+    margin-left: 150px;
+    
+}
+#d1{
+    border: 5px solid ;
+    font-size: 5em;
+    width: 200px;
+    height: 100px;
+}
+#d1{
+    margin-left: 40px;
+    background-color: rgba(211, 216, 221, 0.905);
+    box-shadow:6px 6px 8spx color(srgb rgb(203, 16, 16) green blue);
+    display: block
+}
+h1 ::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    text-shadow: 5px 4px 5px red ,-5px 4px 5px red;
+}
+#un li::before{
+    content: "✔️";
+}
+#name::after{
+  content: "👍";
+}
+#age::after {
+    content: "👍";
+    color: rgb(35, 23, 146);
+}
+
+#but :hover{
+    background-color: rgb(124, 76, 236);
+    border: 2em;
+    width: 100px;
+}
+button :active{
+    background-color: chartreuse;
+}
+.list{
+    color: brown;
+    background-color: black;
+}

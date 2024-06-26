@@ -1,0 +1,63 @@
+button {
+    position: relative;
+    left: 50%;
+}
+button :hover{
+    font-size: 2em;
+    color: rgb(209, 95, 33);
+}
+button :active{
+    color: rgb(218, 26, 26);
+    font-size: 1em;
+}
+#list :hover{
+    background-color: rgb(204, 29, 29);
+}
+#list :not(:hover){
+    background-color: blue;
+}
+#goo:link{
+     background-color: aqua;
+}
+#goo:hover{
+    background-color: brown;
+    font-size: 2em;
+}
+button:hover{
+    font-size: 1.1em;
+    background-color: antiquewhite;
+}
+button:active{
+    font-size: 1.1em;
+    background-color:rebeccapurple;
+}
+button::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::selection{
+    background-color: black;
+    color: aquamarine;
+}
+p::first-letter{
+    font-size: 2em;
+    color: brown;
+    font-style: italic;
+}
+.pagination{
+    text-align: center;
+   
+}
+.pagination a{
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    
+}
+.pagination a:hover{
+    background-color:red ;
+}
+#food {
+    position: relative;
+    left: 0%;
+}

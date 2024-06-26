@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" class="hr">About Me</a></li>
+                <li><a href="#skills"class="hr">Skills</a></li>
+                <li><a href="#projects" class="hr">Projects</a></li>
+                <li><a href="#contact"class="hr">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1 class="hd">Welcome to My Portfolio</h1>
+        <p>Hi, I'm Boomindhra R.N, a passionate front-end developer.</p>
+    </section>
+
+    <section id="skills">
+        <h2 class="hd">Skills</h2>
+        <ul id="skill">
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+         <li>Java</li>
+         <li>SQL</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2 class="hd">Projects</h2>
+        <div class="project">
+            <h3 class="txt">DRIVER DROWSINESS DETECTION </h3>
+            <p>•	Using HOG FEATURES AND ENSEMBLE CLASSIFIER PYTHON OpenCV and PANDAS libraries for DATA
+                Extraction and Manipulation.
+                </p>
+                <p>• Drowsiness can be detected with an accuracy of 97%.</p>
+        </div>
+        <div class="project">
+            <h3 class="txt">IOT BASED HOME AUTOMATION USING AWS</h3>
+            <p>• Using an ESP32 USB micro controller connected through an AWS cloud and control all devices in home.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="hd">Contact</h2>
+        <form action="mailto:indhran1809@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Boomindhra. All rights reserved.</p>
+        
+    </footer>
+</body>
+</html>

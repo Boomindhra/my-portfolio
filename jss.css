@@ -1,0 +1,12 @@
+#p1{
+    background-color: rgb(231, 22, 22);
+    text-align: center;
+}
+#tbl{
+    border: 20em;
+    background-color: bisque;
+}
+
+#di:hover{
+    background-color: black;
+}

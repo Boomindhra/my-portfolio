@@ -1,0 +1,22 @@
+#food{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(232, 236, 239);
+    cursor: pointer;
+}
+.drop a{
+    display: block;
+    text-decoration: none;
+    padding: 7px 10px;
+    color: rgb(15, 3, 1);
+}
+.drop .content{
+    display: none;
+}
+.drop:hover .content{
+    display: block;
+    background-color: rgb(232, 226, 226);
+}
+.drop a:hover{
+    background-color: rgb(200, 244, 25);
+}

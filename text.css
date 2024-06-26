@@ -1,0 +1,50 @@
+.hello{
+    background-image: url("https://cdn.pixabay.com/animation/2022/08/02/01/07/01-07-08-835_512.gif");
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+body{
+    background-image: url(./zonda.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+image{
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    background-image: url("./car\ gif.jpeg");
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(222, 228, 228);
+    background-size: cover;
+    background-position: center;
+    
+    background-clip: border-box;
+    
+    
+}
+nav img{
+    width: 30%;
+    height: 30%;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a:hover{
+    color: rgb(162, 168, 166);
+    box-shadow: 20px;
+}
